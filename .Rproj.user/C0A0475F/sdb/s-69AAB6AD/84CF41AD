@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "Package: githunt\nType: Package\nTitle: Get Email Address From \"github\" Username\nVersion: 0.0-1\nAuthor: Who wrote it\nMaintainer: Richard Cotton <richierocks@gmail.com>\nDescription: Get the email address associated with a github username from the\n    public event data.\nLicense: Unlimited\nEncoding: UTF-8\nLazyData: true\nRoxygenNote: 6.0.1\n",
+    "contents" : "Package: githunt\nType: Package\nTitle: Get Email Address From \"github\" Username\nVersion: 0.0-1\nAuthor: Who wrote it\nMaintainer: Richard Cotton <richierocks@gmail.com>\nDescription: Get the email address associated with a github username from the\n    public event data.\nImports:\n    assertive.types,\n    magrittr,\n    stats,\n    stringi,\n    httr\nLicense: Unlimited\nEncoding: UTF-8\nLazyData: true\nRoxygenNote: 6.0.1\n",
     "created" : 1505756847200.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3611301504",
+    "hash" : "4037131416",
     "id" : "84CF41AD",
-    "lastKnownWriteTime" : 1505757183,
-    "last_content_update" : 1505757183732,
+    "lastKnownWriteTime" : 1505762131,
+    "last_content_update" : 1505762131940,
     "path" : "~/workspace/githunt/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {

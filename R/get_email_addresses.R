@@ -15,6 +15,7 @@
 #' @importFrom httr stop_for_status
 #' @importFrom httr content
 #' @importFrom magrittr %>%
+#' @importFrom stats na.omit
 #' @importFrom stringi stri_detect_fixed
 #' @importFrom stringi stri_extract_all_regex
 #' @export
