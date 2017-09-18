@@ -24,3 +24,18 @@ username as its only argument.
     get_email_addresses("richierocks")
 
     ## [1] "richierocks@gmail.com"
+
+Isn't this creepy?
+------------------
+
+Yes, a little. Please use the package responsibly.
+
+github stores a lot of data about your activities on public
+repositories. See
+
+    https://api.github.com/users/your-github-username/events/public
+
+for what is being stored about yourself.
+
+If you are concerned about your email address being made public, then
+don't associate it with a github account.
