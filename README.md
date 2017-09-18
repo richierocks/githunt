@@ -37,5 +37,4 @@ repositories. See
 
 for what is being stored about yourself.
 
-If you are concerned about your email address being made public, then
-don't associate it with a github account.
+If you are concerned about your email address being made public,  you can learn how to keep your email address private in the [GitHub documentation](https://help.github.com/articles/about-commit-email-addresses/).
