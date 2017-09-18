@@ -1,0 +1,37 @@
+---
+title: "README"
+author: "Richard Cotton"
+date: "2017-09-18"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# githunt: An R package to get the email address from a github username
+
+Trawl a github user's public events data for their email address.
+
+## Installation
+
+First, install the devtools package
+
+```r
+install.packages("devtools")
+```
+
+Then install this
+
+```r
+devtools::install_github("richierocks/githunt")
+```
+
+## Usage
+
+The only function is `get_email_addresses()`, which takes a github username as its only argument.
+
+```r
+get_email_addresses("richierocks")
+```
+

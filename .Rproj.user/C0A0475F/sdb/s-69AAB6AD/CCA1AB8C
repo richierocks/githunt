@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"README\"\nauthor: \"Richard Cotton\"\ndate: \"2017-09-18\"\noutput: md_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n# githunt: An R package to get the email address from a github username\n\nTrawl a github user's public events data for their email address.\n\n## Installation\n\nFirst, install the devtools package\n\n```r\ninstall.packages(\"devtools\")\n```\n\nThen install this\n\n```r\ndevtools::install_github(\"richierocks/githunt\")\n```\n\n## Usage\n\nThe only function is `get_email_addresses()`, which takes a github username as its only argument.\n\n```r\nget_email_addresses(\"richierocks\")\n```\n\n",
+    "created" : 1505757403386.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3973623565",
+    "id" : "CCA1AB8C",
+    "lastKnownWriteTime" : 1505757737,
+    "last_content_update" : 1505757737140,
+    "path" : "~/workspace/githunt/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
