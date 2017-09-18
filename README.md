@@ -20,4 +20,7 @@ Usage
 The only function is `get_email_addresses()`, which takes a github
 username as its only argument.
 
+    library(githunt)
     get_email_addresses("richierocks")
+
+    ## [1] "richierocks@gmail.com"

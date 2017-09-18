@@ -31,7 +31,8 @@ devtools::install_github("richierocks/githunt")
 
 The only function is `get_email_addresses()`, which takes a github username as its only argument.
 
-```r
+```{r}
+library(githunt)
 get_email_addresses("richierocks")
 ```
 
